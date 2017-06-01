@@ -1,5 +1,5 @@
 import os
-os.environ.setdefault('DJANGO_SETTINGS_MODULE','tango_with_django_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE','tango_django_project.settings')
 
 
 import django
@@ -25,7 +25,7 @@ def populate():
         {"title":"Django Rocks",
         "url":"http://www.djangorocks.com/"},
         {"title":"How to Tango with Django",
-        "url":"http://www.tangowithdjango.com/"} ]
+        "url":"http://www.tangodjango.com/"} ]
     other_pages = [
         {"title":"Bottle",
         "url":"http://bottlepy.org/docs/dev/"},
